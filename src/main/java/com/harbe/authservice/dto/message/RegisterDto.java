@@ -1,6 +1,4 @@
-package com.harbe.authservice.dto.model;
-
-import java.util.Date;
+package com.harbe.authservice.dto.message;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotEmpty;
@@ -9,14 +7,13 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import java.util.Date;
 
 @Getter
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class UserDto {
-    private Long id;
-
+public class RegisterDto {
     @NotEmpty(message = "Tên không được để trống")
     @Size(min = 3, message = "Tên phải có độ dài tối thiểu 3 ký tự")
     private String name;
