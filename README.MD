@@ -18,7 +18,7 @@ Sơ đồ DFD minh họa luồng dữ liệu trong quá trình xác thực.  Cli
 
 ### Sequence Diagram
 
-![Sequence Diagram](sequence.png)
+![Sequence Diagram](app-resources/sequence.png)
 
 Sơ đồ này mô tả chi tiết luồng xử lý của quá trình xác thực, bao gồm cả đăng ký người dùng và lấy access token.  Nó thể hiện sự tương tác giữa các thành phần trong hệ thống như Client, Auth Service, Database, và các thành phần khác.
 
